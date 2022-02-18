@@ -1,0 +1,14 @@
+procedimiento para ejecutar la SH en QA stage:
+
+100.126.20.14 QA produccion puerto 22 despe puty
+
+usuario : 	wasuser
+contraseña : 	passw0rd
+
+para hacer un puente de prodiccion a stagin, porque la shell esta en stagin
+
+pasos:
+1 en puty conectarme a QA produccion 100.126.20.14 puerto 22 :: ahora ir a stagin con SSH 
+2 ssh wasuser@172.18.88.162
+3 cd /opt/IBM/scripts
+4 ./executeDataloadPrecios.sh >> /opt/IBM/scripts/logs/executeDataloadPrecios.log 2>&1
