@@ -4,7 +4,7 @@ procedimiento para ejecutar la SH en QA stage:
 
 usuario : 	wasuser
 contraseña : 	passw0rd
-ffff
+ffff 1111111111
 para hacer un puente de prodiccion a stagin, porque la shell esta en stagin
 
 pasos:
